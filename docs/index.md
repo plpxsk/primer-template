@@ -30,3 +30,8 @@ you can use `markdown` and lists
 1. top item
 1. stellar
 
+
+# Learn more
+
+This is a demo of a template website. Learn more at
+[pavopax/primer-template](https://github.com/pavopax/primer-template).

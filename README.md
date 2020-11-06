@@ -4,23 +4,23 @@ A template for a simple GitHub pages website using the Primer theme.
 
 # Demo
 
-See what this looks like at TBD
+See what this looks like at [pavopax.github.io/primer-template/](https://pavopax.github.io/primer-template/)
 
 # Get started
 
 1) Create content:
 
-* Create a new repository on github.roche.com
-* Add a README.md file with some content into the repository
+  * Create a new repository on github.com
+  * Add a README.md file with some content into the repository
 
 2) Publish so others can see it:
 
-* Go to repository `Settings` (tab on top right) - scroll down to `GitHub
-  Pages` and in `Source` select `master branch`
-* The page will refresh. Scroll down again to `GitHub Pages` and find the link
-  to your GitHub Page under "Your site is published at ..".
-* Open the link to view your website
-* You can now share this link!
+  * Go to repository `Settings` (tab on top right) - scroll down to `GitHub
+    Pages` and in `Source` select `master branch`
+  * The page will refresh. Scroll down again to `GitHub Pages` and find the
+    link to your GitHub Page under "Your site is published at ..".
+  * Open the link to view your website
+  * You can now share that link!
 
 That's it!
 

@@ -135,3 +135,7 @@ However, the above will not style your page with the Github Pages theme. Plus,
 # References
 
 Primer: Customize the [Default Github Pages theme](https://github.com/pages-themes/primer)
+
+Error "No repo name found" "Site could not be built" requires editing default
+template. See
+[stackoverflow.com/a/48832099/3217870](https://stackoverflow.com/a/48832099/3217870).

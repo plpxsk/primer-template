@@ -12,7 +12,7 @@ Create the simplest GitHub pages site possible:
 
 1) Create content:
 
-  * Create a new repository on GitHub (Enterprise is ok)
+  * Create a new repository on GitHub (GitHub Enterprise is ok)
   * Add a README.md file with some content into the repository
 
 2) Publish so others can see it:
@@ -20,11 +20,9 @@ Create the simplest GitHub pages site possible:
   * Go to repository `Settings` (tab on top right) - scroll down to `GitHub
     Pages` and in `Source` select `master branch`
   * The page will refresh. Scroll down again to `GitHub Pages` and find the
-    link to your GitHub Page under "Your site is published at ..".
-  * Open the link to view your website
-  * You can now share that link!
+    link to your GitHub Page under "Your site is published at ...".
+  * Open & share link
 
-That's it!
 
 # Update content
 
@@ -33,6 +31,18 @@ That's it!
 
 For a more robust template, you can clone this repository as a starting point,
 see "Extensions".
+
+
+# Customize
+
+To remove the Header link, create `_config.yml` and add:
+
+```
+name: My Website
+title: null
+```
+
+Both are required. Learn more about this at [pages-themes/primer#40](https://github.com/pages-themes/primer/issues/40)
 
 # Preview
 

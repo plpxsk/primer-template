@@ -34,3 +34,8 @@ That's it!
 For a more robust template, you can clone this repository as a starting point,
 see "Extensions".
 
+# Preview
+
+> You can build your GitHub Pages site locally to preview and test changes to your site.
+
+See official [Github Docs](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll).

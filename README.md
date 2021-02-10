@@ -49,3 +49,19 @@ Both are required. Learn more about this at [pages-themes/primer#40](https://git
 > You can build your GitHub Pages site locally to preview and test changes to your site.
 
 See official [Github Docs](https://docs.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll).
+
+# Snippets
+
+Insert image into markdown, and using jekyll relative paths (so that preview
+works locally and when deployed):
+
+```html
+<img src="img/mittens_logo.jpg" alt="image" width="800">
+<img src="{{ "/img/mittens_logo.jpg" | absolute_url }}" width="800">
+```
+
+Link to blog post from `_posts` (XYZ-blog-post-name doesn't need md nor html
+extension):
+
+	[text here]({{ site.baseurl }}{% post_url 2018-06-01-blog-pose-name %})
+

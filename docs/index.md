@@ -34,4 +34,4 @@ you can use `markdown` and lists
 # Learn more
 
 This is a demo of a template website. Learn more at
-[pavopax/primer-template](https://github.com/pavopax/primer-template).
+[plpxsk/primer-template](https://github.com/plpxsk/primer-template).

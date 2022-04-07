@@ -50,6 +50,8 @@ See official [Github Docs](https://docs.github.com/en/github/working-with-github
 
 # Snippets
 
+## Images & Paths
+
 Insert image into markdown, and using jekyll relative paths (so that preview
 works locally and when deployed):
 
@@ -57,9 +59,55 @@ works locally and when deployed):
 <img src="img/mittens_logo.jpg" alt="image" width="800">
 <img src="{{ "/img/mittens_logo.jpg" | absolute_url }}" width="800">
 ```
+## Blog post
 
 Link to blog post from `_posts` (XYZ-blog-post-name doesn't need md nor html
 extension):
 
 	[text here]({{ site.baseurl }}{% post_url 2018-06-01-blog-pose-name %})
 
+## List all posts
+
+```html
+# Posts
+{% for post in site.posts %}
+
+## {{ post.title }}
+<p>
+    <i>{{ post.date | date: page.date |  date: '%B %d, %Y' }}</i><br>
+    <i>{{ post.author }}</i>
+</p>
+
+{{post.excerpt}}
+
+<a href="{{ post.url | absolute_url }}">Read the article ></a>
+
+<br>
+
+{% endfor %}
+```
+
+## List all posts for given tag
+
+```html
+{% for tag in site.tags %}
+<!-- tag is a tuple: (tag_name, [posts]) -->
+{% if tag[0] == "science" %} <!-- science is the tag -->
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url | absolute_url}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
+{% endfor %}
+```
+
+## List all tags
+
+```html
+<p>
+{% for tag in site.tags %}
+	{{ tag[0] }}
+{% endfor %}
+</p>
+```

@@ -111,3 +111,7 @@ extension):
 {% endfor %}
 </p>
 ```
+
+# References
+
+Good docs from jekyll: [jekyllrb.com/docs](https://jekyllrb.com/docs/)

@@ -2,6 +2,8 @@
 
 A template for a simple GitHub pages website using the Primer theme.
 
+With notes how to add blog, and other (front) matter.
+
 # Demo
 
 See what this looks like at [plpxsk.github.io/primer-template/](https://plpxsk.github.io/primer-template/)

@@ -4,6 +4,8 @@ A template for a simple GitHub pages website using the Primer theme.
 
 With notes how to add blog, and other (front) matter.
 
+_Official primer home: [github.com/pages-themes/primer](https://github.com/pages-themes/primer)_
+
 # Demo
 
 See what this looks like at [plpxsk.github.io/primer-template/](https://plpxsk.github.io/primer-template/)
@@ -115,5 +117,8 @@ extension):
 ```
 
 # References
+
+Official primer home: [github.com/pages-themes/primer](https://github.com/pages-themes/primer)
+
 
 Good docs from jekyll: [jekyllrb.com/docs](https://jekyllrb.com/docs/)
